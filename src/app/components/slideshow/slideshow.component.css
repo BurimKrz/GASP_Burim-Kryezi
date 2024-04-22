@@ -1,0 +1,15 @@
+.slideshow {
+  margin-top: 50px; /* Adjust margin as needed */
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide img {
+  max-width: 70%; /* Ensure images don't exceed their container width */
+  height: auto; /* Maintain aspect ratio */
+  width: 100%; /* Make images fill the available width */
+}
